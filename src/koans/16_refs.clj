@@ -40,4 +40,4 @@
           (ref-set the-world {})
           (alter the-world assoc :jerry "Real Jerry")
           (alter bizarro-world assoc :jerry "Bizarro Jerry")
-          (map :jerry [@the-world @bizarro-world]))))
+          (map :jerry [@the-world @bizarro-world])))))
