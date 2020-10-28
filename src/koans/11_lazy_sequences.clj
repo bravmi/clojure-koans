@@ -25,4 +25,4 @@
 
   "Iteration can be used for repetition"
   (= (repeat 100 "hello")
-     (take 100 (iterate (fn [x] "hello") "hello"))))
+     (take 100 (iterate identity "hello"))))
